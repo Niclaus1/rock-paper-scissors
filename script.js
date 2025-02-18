@@ -7,7 +7,7 @@ let computerScore = 0;
 
 // create a method for generating random number from 1 to 3
 // numbers will define if Rock Paper Scissors
-function getComputerChoice(){
+const getComputerChoice = () => {
     let number = Math.floor(Math.random() * (3 - 1 + 1) + 1);
     switch (number) {
         case 1:
@@ -23,14 +23,14 @@ function getComputerChoice(){
 }
 
 //users are given a choice by typing rock paper scissors
-function getHumanChoice(){
-    let choice = prompt();
+const getHumanChoice = () => {
+    let choice = prompt("rock, paper, scissor");
     let formattedChoice = choice.toLowerCase().trim();
     return formattedChoice;
-}
+} 
 
 //creates rock paper scissor logic if one of the player wins, +1 on the player
-function playRound(){
+const playRound = () => {
     let humanChoice = getHumanChoice();
     let computerChoice = getComputerChoice(); 
 
@@ -61,20 +61,19 @@ function playRound(){
         console.log("human wins");
         humanScore++;
     }
-
     console.log(humanChoice);
     console.log(computerChoice);
     }
 
 //game will run for 5 rounds only, the one who has a greater score WINS.
-function gameStart(){
+const gameStart = () => {
     for (let index = 0; index < 5; index++) {
         playRound();
     }
     if (humanScore > computerScore) {
-        console.log("HUMAN WINS HORAAAY!!");
+        alert("HUMAN WINS HORAAAY!!");
     }else{
-        console.log("COMPUTER WINS OHH Nooooo");
+        alert("COMPUTER WINS OHH NOOOOOO");
     }
 }
 
