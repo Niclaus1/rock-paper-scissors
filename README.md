@@ -1,5 +1,9 @@
 # Rock-Paper-Scissors (Console-Based)
 
+## Live Demo  
+
+🔗 [Play the game here!](https://niclaus1.github.io/rock-paper-scissors/)
+
 ## Overview
 
 This is a simple **Rock-Paper-Scissors** game that runs in the console. The player makes a choice via a prompt, while the computer randomly selects its move. The winner is determined based on the standard Rock-Paper-Scissors rules.
@@ -19,11 +23,12 @@ This is a simple **Rock-Paper-Scissors** game that runs in the console. The play
 
 ### Running the Game
 
-1. **Clone the repository:**
+1. Clone the repository:
+
    ``` git clone https://github.com/Niclaus rock-paper-scissors.git```
 2. Navigate to the project directory:
 
-```bash cd rock-paper-scissors ```
+```cd rock-paper-scissors ```
 
 3. Open the developer console in your browser:
 
