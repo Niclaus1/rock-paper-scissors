@@ -37,7 +37,6 @@ const playRound = () => {
     if (humanChoice === computerChoice) {
         console.log("ITS A DRAW");
     }
-
     switch (humanChoice) {
         case "rock":
             if (computerChoice === "scissor") {
@@ -69,6 +68,7 @@ const playRound = () => {
     }
 
 //game will run for 5 rounds only, the one who has a greater score WINS.
+//after 5 rounds, will prompt to ask for another round of the game 
 const gameStart = () => {
     for (let index = 0; index < 5; index++) {
         playRound();
