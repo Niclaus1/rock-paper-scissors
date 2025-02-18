@@ -54,6 +54,3 @@ If you'd like to improve the game:
 3. Make your changes and commit them (git commit -m "Added feature X").
 4. Push your branch (git push origin feature-name).
 5. Open a Pull Request.
-
-### License
-This project is licensed under the MIT License.
