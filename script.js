@@ -24,7 +24,7 @@ const getComputerChoice = () => {
 
 //users are given a choice by typing rock paper scissors
 const getHumanChoice = () => {
-    let choice = prompt("rock, paper, scissor");
+    let choice = prompt("Choose: rock, paper, scissor");
     let formattedChoice = choice.toLowerCase().trim();
     return formattedChoice;
 } 
