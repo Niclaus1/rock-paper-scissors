@@ -92,6 +92,7 @@ const gameStart = () => {
     
     let startGame = prompt("Want to start Again? Y/N");
     if (startGame === "Y") {
+        roundNumber = 0;
         humanScore = 0;
         computerScore = 0;
         gameStart();
