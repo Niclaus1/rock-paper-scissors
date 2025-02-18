@@ -37,29 +37,29 @@ const playRound = () => {
     if (humanChoice === computerChoice) {
         console.log("ITS A DRAW");
     }
-    else if (humanChoice === "rock" && computerChoice === "paper" ) {
-        console.log("Computer wins");
-        computerScore++;
-    }
-    else if (humanChoice === "rock" && computerChoice === "scissor" ) {
-        console.log("human wins");
-        humanScore++;
-    }
-    else if (humanChoice === "paper" && computerChoice === "rock" ) {
-        console.log("human wins");
-        humanScore++;
-    }
-    else if (humanChoice === "paper" && computerChoice === "scissor" ) {
-        console.log("computer wins");
-        computerScore++;
-    }
-    else if (humanChoice === "scissor" && computerChoice === "rock" ) {
-        console.log("computer wins");
-        computerScore++;
-    }
-    else if (humanChoice === "scissor" && computerChoice === "paper" ) {
-        console.log("human wins");
-        humanScore++;
+
+    switch (humanChoice) {
+        case "rock":
+            if (computerChoice === "scissors") {
+                humanScore++;
+            }else{
+                computerScore++;
+            }
+            break;
+        case "paper":
+            if (computerChoice === "rock") {
+                humanScore++;
+            }else{
+                computerScore++
+            }
+            break;
+        case "scissor":
+            if (computerChoice === "paper") {
+                humanScore++;
+            }else{
+                computerScore++;
+            }
+            break;
     }
     console.log(humanChoice);
     console.log(computerChoice);
