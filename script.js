@@ -40,11 +40,12 @@ const playRound = () => {
 
     switch (humanChoice) {
         case "rock":
-            if (computerChoice === "scissors") {
+            if (computerChoice === "scissor") {
                 humanScore++;
             }else{
                 computerScore++;
             }
+            alert("Human: " + humanScore + " Computer: " + computerScore );
             break;
         case "paper":
             if (computerChoice === "rock") {
@@ -52,6 +53,7 @@ const playRound = () => {
             }else{
                 computerScore++
             }
+            alert("Human: " + humanScore + " Computer: " + computerScore );
             break;
         case "scissor":
             if (computerChoice === "paper") {
@@ -59,6 +61,7 @@ const playRound = () => {
             }else{
                 computerScore++;
             }
+            alert("Human: " + humanScore + " Computer: " + computerScore );
             break;
     }
     console.log(humanChoice);
@@ -75,13 +78,18 @@ const gameStart = () => {
     }else{
         alert("COMPUTER WINS OHH NOOOOOO");
     }
+    
+    let startGame = prompt("Want to start Again? Y/N");
+    if (startGame === "Y") {
+        humanScore = 0;
+        computerScore = 0;
+        gameStart();
+    }else{
+        alert("Goodbye, Play With my Next Time")
+    }
 }
 
 //game test run
 gameStart();
-console.log(humanScore);
-console.log(computerScore);
-
-
 
 
