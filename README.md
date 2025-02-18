@@ -21,8 +21,8 @@ This is a simple **Rock-Paper-Scissors** game that runs in the console. The play
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Niclaus1/rock-paper-scissors.git
-2. avigate to the project directory:
+   git clone https://github.com/Niclaus rock-paper-scissors.git
+2. Navigate to the project directory:
 
 cd rock-paper-scissors
 
@@ -37,23 +37,23 @@ Copy and paste the contents of script.js into the console.
 Follow the prompts to play the game.
 
 ### How to Play
-The game will prompt you to choose Rock, Paper, or Scissors.
-Type your choice in the prompt and press Enter.
-The computer will randomly generate its choice.
-The result (Win, Lose, or Draw) will be displayed in the console.
-You can play again by re-running the script.
+1. The game will prompt you to choose Rock, Paper, or Scissors.
+2. Type your choice in the prompt and press Enter.
+3. The computer will randomly generate its choice.
+4. The result (Win, Lose, or Draw) will be displayed in the console.
+5. You can play again by typing Y/N.
 
 ### Project Structure
-index.html – Placeholder file (optional)
-script.js – Contains the game logic
+- index.html – Placeholder file (optional)
+- script.js – Contains the game logic
 
 ### Contributing
 If you'd like to improve the game:
-Fork the repository.
-Create a new branch (git checkout -b feature-name).
-Make your changes and commit them (git commit -m "Added feature X").
-Push your branch (git push origin feature-name).
-Open a Pull Request.
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-name).
+3. Make your changes and commit them (git commit -m "Added feature X").
+4. Push your branch (git push origin feature-name).
+5. Open a Pull Request.
 
 ### License
 This project is licensed under the MIT License.
