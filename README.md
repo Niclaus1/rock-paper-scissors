@@ -28,7 +28,7 @@ This is a simple **Rock-Paper-Scissors** game that runs in the console. The play
    ``` git clone https://github.com/Niclaus rock-paper-scissors.git```
 2. Navigate to the project directory:
 
-```cd rock-paper-scissors ```
+    ```cd rock-paper-scissors ```
 
 3. Open the developer console in your browser:
 
