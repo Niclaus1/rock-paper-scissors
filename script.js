@@ -85,9 +85,9 @@ const gameStart = () => {
         playRound();
     }
     if (humanScore > computerScore) {
-        alert("HUMAN WINS HORAAAY!!");
+        alert("HUMAN WINS!!!");
     }else{
-        alert("COMPUTER WINS OHH NOOOOOO");
+        alert("COMPUTER WINS!");
     }
     
     let startGame = prompt("Want to start Again? Y/N");
