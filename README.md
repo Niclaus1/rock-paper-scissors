@@ -20,11 +20,10 @@ This is a simple **Rock-Paper-Scissors** game that runs in the console. The play
 ### Running the Game
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Niclaus rock-paper-scissors.git
+   ``` git clone https://github.com/Niclaus rock-paper-scissors.git```
 2. Navigate to the project directory:
 
-cd rock-paper-scissors
+```bash cd rock-paper-scissors ```
 
 3. Open the developer console in your browser:
 
