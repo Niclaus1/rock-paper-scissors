@@ -1,6 +1,7 @@
-// Rock Paper Scissors
+// Rock Paper Scissors GAME
+// By Niclaus Go
 
-// Assign int humanScore && computerScore to 0
+// Assign initial humanScore && computerScore to 0
 let humanScore = 0;
 let computerScore = 0;
 
@@ -65,6 +66,7 @@ function playRound(){
     console.log(computerChoice);
     }
 
+//game will run for 5 rounds only, the one who has a greater score WINS.
 function gameStart(){
     for (let index = 0; index < 5; index++) {
         playRound();
@@ -76,6 +78,7 @@ function gameStart(){
     }
 }
 
+//game test run
 gameStart();
 console.log(humanScore);
 console.log(computerScore);
